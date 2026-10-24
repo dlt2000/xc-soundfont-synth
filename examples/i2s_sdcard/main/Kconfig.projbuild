@@ -1,0 +1,33 @@
+menu "XC SoundFont example"
+    config XC_I2S_BCLK
+        int "I2S BCLK GPIO (-1 = unconfigured)"
+        range -1 48
+        default -1
+    config XC_I2S_WS
+        int "I2S WS/LRCLK GPIO (-1 = unconfigured)"
+        range -1 48
+        default -1
+    config XC_I2S_DOUT
+        int "I2S DOUT GPIO (-1 = unconfigured)"
+        range -1 48
+        default -1
+    config XC_SD_MOSI
+        int "SD SPI MOSI GPIO (-1 = unconfigured)"
+        range -1 48
+        default -1
+    config XC_SD_MISO
+        int "SD SPI MISO GPIO (-1 = unconfigured)"
+        range -1 48
+        default -1
+    config XC_SD_SCLK
+        int "SD SPI SCLK GPIO (-1 = unconfigured)"
+        range -1 48
+        default -1
+    config XC_SD_CS
+        int "SD SPI CS GPIO (-1 = unconfigured)"
+        range -1 48
+        default -1
+    config XC_SF2_PATH
+        string "Mounted SF2 path"
+        default "/sdcard/instrument.sf2"
+endmenu

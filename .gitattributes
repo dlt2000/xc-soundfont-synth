@@ -1,0 +1,9 @@
+* text=auto
+*.c text eol=lf
+*.h text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+CMakeLists.txt text eol=lf
+LICENSE text eol=lf
+# 保留已核验的第三方源码原始字节，使版本记录中的 SHA-256 可复现。
+tsf.h -text

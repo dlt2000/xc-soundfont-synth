@@ -1,0 +1,5 @@
+version: "0.1.0"
+description: "面向自制电子乐器的 SoundFont (SF2) 单音合成组件"
+license: "MIT"
+dependencies:
+  idf: ">=5.5.1,<6.0"
